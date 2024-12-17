@@ -1,0 +1,16 @@
+{
+  "name": "timewarp-cli",
+  "version": "1.0.0",
+  "description": "A CLI tool for time traveling",
+  "main": "timewarp.js",
+  "bin": {
+    "timewarp": "./timewarp.js"
+  },
+  "scripts": {
+    "timewarp": "sudo node timewarp.js",
+    "postinstall": "chmod +x timewarp.js"
+  },
+  "keywords": ["cli", "time", "system-time"],
+  "author": "Your Name",
+  "license": "MIT"
+} 
